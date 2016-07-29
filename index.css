@@ -1,0 +1,47 @@
+html {
+	width: 100%;
+	height: 100%;
+	font-family: 微软雅黑;
+}
+
+body {
+	background-color: #778899;
+	text-align: center;
+}
+
+#container {
+	height: 450px;
+}
+
+#container,#toolbar {
+	padding: 20px;
+	width: 450px;
+	margin: 20px auto;
+}
+
+#container,#toolbar button,#toolbar .turn {
+	box-shadow: 0 0 4px;
+	border: 1px solid #C2C0C0;
+}
+
+#canvas {
+	background-color: #DEB887;
+}
+
+#toolbar>* {
+	color: #F0EFEF;
+	padding: 6px 8px;
+	border-radius: 6px;
+}
+
+#toolbar *+* {
+	margin-left: 20px;
+}
+
+#toolbar span {
+	font-size: 14px;
+}
+
+#toolbar button {
+	background-color: #808080;
+}
